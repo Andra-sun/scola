@@ -1,0 +1,194 @@
+
+body {
+    background-color: #173637;;
+}
+  
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+  
+.card {
+    grid-column: 1 / -1;
+    margin: 10px;
+}
+  
+#retangulo1{
+    position: absolute;
+    width: 100%;
+    height: 60px;
+    left: 0px;
+    top: 0px;
+    background: #20CD8D;
+    border-radius: 2px;
+}
+
+#retangulo2{
+    position: absolute;
+    width: 362px;
+    height: 600px;
+    left: 34px;
+    top: 130px;
+    background: #20CD8D;
+    border-radius: 10px;
+}
+
+#caixa1{
+    position: absolute;
+    width: 172px;
+    height: 92px;
+    left: 142px;
+    top: 168px;
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#caixa2{
+    position: absolute;
+    width: 172px;
+    height: 92px;
+    left: 142px;
+    top: 278px;
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#caixa3{
+    position: absolute;
+    width: 172px;
+    height: 92px;
+    left: 142px;
+    top: 388px;
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#caixa4{
+    position: absolute;
+    width: 172px;
+    height: 92px;
+    left: 142px;
+    top: 498px;
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#caixa5{
+    position: absolute;
+    width: 172px;
+    height: 92px;
+    left: 142px;
+    top: 608px;
+    background: #388367;
+    mix-blend-mode: normal;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#dia1{
+    position: absolute;
+    width: 91px;
+    height: 29px;
+    left: 15px;
+    top: 193px;
+    background: #249068;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#dia2{
+    position: absolute;
+    width: 91px;
+    height: 29px;
+    left: 15px;
+    top: 307px;
+    background: #249068;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#dia3{
+    position: absolute;
+    width: 91px;
+    height: 29px;
+    left: 15px;
+    top: 418px;
+    background: #249068;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+
+}
+
+#dia4{
+    position: absolute;
+    width: 91px;
+    height: 29px;
+    left: 15px;
+    top: 527px;
+    background: #249068;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#dia5{
+    position: absolute;
+    width: 91px;
+    height: 29px;
+    left: 15px;
+    top: 637px;
+    background: #249068;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#opcao{
+    position: absolute;
+    width: 53px;
+    height: 52px;
+    left: 7px;
+    top: 4px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+sala{
+    position: absolute;
+    width: 75px;
+    height: 34px;
+    left: 15px;
+    top: 76px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#materia{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 106px;
+    top: 76px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#dia{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+    left: 271px;
+    top: 76px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}

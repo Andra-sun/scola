@@ -1,0 +1,73 @@
+body{
+    position: relative;
+    width: 428px;
+    height: 926px;
+
+    background: #173637;
+}
+
+#titulo{
+    position: absolute;
+    width: 428px;
+    height: 60px;
+    background: #20CD8D;
+    border-radius: 2px;
+}
+
+
+sala{
+    width: 75px;
+    height: 34px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+materia{
+    width: 149px;
+    height: 34px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: 130px;
+}
+
+tudo{
+    width: 149px;
+    height: 34px;
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    left: 334px;
+}
+
+#Rectangle3{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+
+#Rectangle15{
+    position: absolute;
+    width: 149px;
+    height: 34px;
+
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+#Rectangle16{
+    position: absolute;
+    width: 75px;
+    height: 34px;
+
+    background: #249068;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
