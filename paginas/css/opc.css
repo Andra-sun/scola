@@ -1,0 +1,73 @@
+@media screen and (max-width: 767px) {
+    #opcao-btn{
+        position: absolute;
+        width: 53px;
+        height: 52px;
+        left: 7px;
+        top: 25px;
+        background: #249168;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        border: none;
+        color: #fff;
+        text-align: center;
+        line-height: 34px;
+        cursor: pointer;
+    }
+    #opcao-btn.active {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    #opcao-btn.no-border-bottom {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    #opcao-lista{
+        display: none;
+        position: absolute;
+        left: 7px;
+        top: 65px;
+        width: 100px;
+        padding: 5px 0;
+        margin: 0;
+        list-style: none;
+        background: #249168;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        z-index: 9;
+    }
+
+    #opcao-lista li{
+        background-color: #1cbb81;
+        color: #333;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        border-bottom: 1px solid #ccc;
+    }
+
+    #opcao-lista li:hover {
+        background-color: #eee;
+        border-radius: 8px;
+    }
+    #opcao-btn:focus + #sala-lista {
+        display: block;
+    }
+
+    a:active,
+    a:focus{
+        text-decoration: none;
+        color: #fff;
+    }
+    a:hover{
+        color: #212121;
+        text-decoration: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+}
